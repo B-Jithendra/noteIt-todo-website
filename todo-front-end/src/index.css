@@ -1,0 +1,175 @@
+*{
+  overflow-x: hidden;
+}
+
+
+.bgg {
+  background-color: #000000dd;
+  color: #ffffff;
+}
+
+.changa-one-regular {
+  font-family: "Changa One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.changa-one-regular-italic {
+  font-family: "Changa One", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+
+.dancing-script-font {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight:bold;
+  word-spacing: 10px;
+  letter-spacing: 1px;
+  font-size: 3.5em;
+  /* font-style: normal; */
+}
+
+
+.outfit-font {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+.container{
+  display: grid;
+  place-items: center; /* Centers both horizontally and vertically */
+  height: 100vh;
+
+}
+.card-dark{
+  width: 19rem;
+  padding: 40px;
+  border-radius: 30px;
+  outline: 2px solid rgba(166, 165, 165, 0.345);
+  box-shadow: 5px 5px 2px 1px rgba(224, 209, 209, 0.4);
+}
+
+.btn-register{
+  background-color: rgba(153, 255, 0, 0.851);
+  outline: none;
+  border: none;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+
+.btn-register:hover{
+  background-color: rgba(153, 255, 0, 0.643);
+  scale: 1.01;
+}
+input{
+  border: none;
+  border-radius: 10px;
+  padding: 10px 0px 8px 10px;
+  background-color: rgb(253, 253, 253);
+
+}
+input:focus{
+  outline: none;
+}
+.eye{
+  right: 8px;
+  color: rgba(0, 0, 0, 0.901);
+  top: 15px;
+  font-size: small;
+  cursor: pointer;
+}
+
+.hero-section{
+  /* height: 10vh; */
+  width: 100%;
+  color: black;
+}
+.hero-image{
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+
+.text-decoration-none{
+  text-decoration: none;
+}
+.navbar-brandd  {
+  color: rgb(255, 106, 0);;
+}
+button:focus{
+  outline: none;
+  border: none;
+}
+.sidebar {
+  width: 240px;
+  transition: width 0.4s ease, padding 0.4s ease, opacity 0.4s ease;
+  overflow: hidden;
+  height: 89.5vh;
+  margin-top: 10.3vh;
+}
+.sidebar.collapsed {
+  width: 0;
+  padding: 0;
+  opacity: 0;
+}
+.nav-item:hover{
+  background-color: rgba(22, 21, 21, 0.418);
+}
+.navbar-color{
+  background-color: rgba(58, 51, 51, 0.353);
+}
+.border-radius{
+  border-radius: 50px;
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+.no-task{
+  margin-top: 40vh;
+}
+input.input::placeholder{
+  color: white;
+  /* opacity: 1; */
+}
+.add-task-btn{
+  background-color: rgba(153, 255, 0, 0.851);
+  outline: none;
+  border: none;
+  padding: 10px 80px 10px 80px;
+  border-radius: 10px;
+}
+.card{
+  border-radius: 100px;
+  outline: 2px solid rgba(166, 165, 165, 0.345);
+
+}
+input.input {
+  padding: 10px 30px 10px 30px;
+  outline: none;
+  border: none;
+  outline: 2px solid rgba(166, 165, 165, 0.345);
+
+}
+input.input:focus{
+  outline: none;
+  border: none;
+}
+.r-tasks{
+  overflow-x: hidden;
+}
+.hero-image-two{
+  height: 50vh;
+  width: 100%;
+  border-radius: 15px;
+
+  /* padding-left: 100px; */
+  margin: 10px;
+  object-fit: contain;
+  
+}
